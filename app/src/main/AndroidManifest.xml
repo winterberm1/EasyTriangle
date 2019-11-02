@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PyTherom"></activity>
+        <activity android:name=".PyTherom"
+            android:label="PyTherom"
+            android:parentActivityName=".ChooseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.easytriangle.ChooseActivity"/>
+        </activity>
         <activity android:name=".ChooseActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
