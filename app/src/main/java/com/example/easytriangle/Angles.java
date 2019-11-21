@@ -8,7 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import static com.example.easytriangle.R.*;
 
-class Angles extends AppCompatActivity{
+public class Angles extends AppCompatActivity{
 
     EditText AngleA, AngleB, AngleC;
     Button answer_button, clear_button;

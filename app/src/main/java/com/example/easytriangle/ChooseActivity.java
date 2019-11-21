@@ -9,8 +9,8 @@ import android.widget.Button;
 
 public class ChooseActivity extends AppCompatActivity {
 
-    Button pyBtn;
-    Button ang;
+    Button pyBtn, ang;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +32,7 @@ public class ChooseActivity extends AppCompatActivity {
         ang.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
 
-                Intent myIntent = new Intent(ChooseActivity.this,
-                        Angles.class);
+                Intent myIntent = new Intent(ChooseActivity.this, Angles.class);
                 startActivity(myIntent);
             }
         });
