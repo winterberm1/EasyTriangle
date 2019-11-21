@@ -10,6 +10,7 @@ import android.widget.Button;
 public class ChooseActivity extends AppCompatActivity {
 
     Button pyBtn;
+    Button ang;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,12 +18,22 @@ public class ChooseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_choose);
 
         pyBtn = (Button) findViewById(R.id.PyTherom);
+        ang = (Button) findViewById(R.id.angles);
 
         pyBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
 
                 Intent myIntent = new Intent(ChooseActivity.this,
                         PyTherom.class);
+                startActivity(myIntent);
+            }
+        });
+
+        ang.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent myIntent = new Intent(ChooseActivity.this,
+                        Angles.class);
                 startActivity(myIntent);
             }
         });

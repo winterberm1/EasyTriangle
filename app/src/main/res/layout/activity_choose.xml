@@ -49,17 +49,17 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/angles"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
-                android:text="Button"
+                android:text="Interior Angle"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
-                android:text="Button"
+                android:text="Sin Function"
                 android:textSize="24sp" />
 
             <Button
