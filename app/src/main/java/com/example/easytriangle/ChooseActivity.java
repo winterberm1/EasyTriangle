@@ -9,20 +9,31 @@ import android.widget.Button;
 
 public class ChooseActivity extends AppCompatActivity {
 
-    Button button;
+    Button pyBtn;
+    Button ang;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose);
 
-        button = (Button) findViewById(R.id.PyTherom);
+        pyBtn = (Button) findViewById(R.id.PyTherom);
+        ang = (Button) findViewById(R.id.angles);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        pyBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
 
                 Intent myIntent = new Intent(ChooseActivity.this,
                         PyTherom.class);
+                startActivity(myIntent);
+            }
+        });
+
+        ang.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent myIntent = new Intent(ChooseActivity.this,
+                        Angles.class);
                 startActivity(myIntent);
             }
         });
