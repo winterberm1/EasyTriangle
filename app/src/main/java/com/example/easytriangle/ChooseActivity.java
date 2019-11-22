@@ -9,8 +9,7 @@ import android.widget.Button;
 
 public class ChooseActivity extends AppCompatActivity {
 
-    Button pyBtn;
-    Button ang;
+    Button pyBtn, ang, sine;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +18,8 @@ public class ChooseActivity extends AppCompatActivity {
 
         pyBtn = (Button) findViewById(R.id.PyTherom);
         ang = (Button) findViewById(R.id.angles);
+        sine = (Button) findViewById(R.id.sin);
+
 
         pyBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
@@ -34,6 +35,15 @@ public class ChooseActivity extends AppCompatActivity {
 
                 Intent myIntent = new Intent(ChooseActivity.this,
                         Angles.class);
+                startActivity(myIntent);
+            }
+        });
+
+        sine.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent myIntent = new Intent(ChooseActivity.this,
+                        Sin.class);
                 startActivity(myIntent);
             }
         });
