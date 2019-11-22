@@ -16,6 +16,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.easytriangle.ChooseActivity"/>
         </activity>
+        
+        <activity android:name=".Angles"
+            android:label="Angles"
+            android:parentActivityName=".ChooseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.easytriangle.ChooseActivity"/>
+        </activity>
+
+        <activity android:name=".Sin"
+            android:label="Sin"
+            android:parentActivityName=".ChooseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.easytriangle.ChooseActivity"/>
+        </activity>
 
         <activity android:name=".ChooseActivity" />
         <activity android:name=".MainActivity">

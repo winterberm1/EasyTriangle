@@ -56,7 +56,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/sin"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:text="Sin Function"
