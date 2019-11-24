@@ -8,6 +8,7 @@
 
     <TextView
         android:id="@+id/textView8"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="99dp"
         android:layout_height="53dp"
         android:layout_marginStart="30dp"
@@ -20,6 +21,7 @@
 
     <EditText
         android:id="@+id/SideA"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="20dp"
@@ -34,6 +36,7 @@
 
     <TextView
         android:id="@+id/textView2"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -47,6 +50,7 @@
 
     <TextView
         android:id="@+id/textView4"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="fill out the below"
@@ -58,6 +62,7 @@
 
     <TextView
         android:id="@+id/textView5"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -71,6 +76,7 @@
 
     <TextView
         android:id="@+id/textView6"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -83,6 +89,7 @@
 
     <EditText
         android:id="@+id/SideB"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -101,6 +108,8 @@
         android:id="@+id/answer_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:layout_marginStart="80dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="20dp"
@@ -110,6 +119,7 @@
 
     <EditText
         android:id="@+id/SideC"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="20dp"
@@ -140,6 +150,8 @@
         android:id="@+id/clearBut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"

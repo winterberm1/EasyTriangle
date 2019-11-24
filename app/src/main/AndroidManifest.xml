@@ -9,30 +9,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PyTherom"
-            android:label="PyTherom"
+        <activity android:name=".TanFunc"
+            android:label="Tangent Function"
             android:parentActivityName=".ChooseActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.easytriangle.ChooseActivity"/>
         </activity>
-        
-        <activity android:name=".Angles"
-            android:label="Angles"
+        <activity android:name=".CosFunc"
+            android:label="Cosine Function"
             android:parentActivityName=".ChooseActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.easytriangle.ChooseActivity"/>
         </activity>
-
-        <activity android:name=".Sin"
-            android:label="Sin"
+        <activity
+            android:name=".PyTherom"
+            android:label="Pythagorean Theorem"
             android:parentActivityName=".ChooseActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.easytriangle.ChooseActivity"/>
+                android:value="com.example.easytriangle.ChooseActivity" />
         </activity>
-
+        <activity
+            android:name=".Angles"
+            android:label="Interior Angles"
+            android:parentActivityName=".ChooseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.easytriangle.ChooseActivity" />
+        </activity>
+        <activity
+            android:name=".Sin"
+            android:label="Sine Function"
+            android:parentActivityName=".ChooseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.easytriangle.ChooseActivity" />
+        </activity>
         <activity android:name=".ChooseActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

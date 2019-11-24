@@ -14,6 +14,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
         android:text="Angle c"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,6 +22,7 @@
 
     <EditText
         android:id="@+id/AngleA"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="0dp"
         android:layout_height="42dp"
         android:layout_marginStart="20dp"
@@ -38,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
         android:text="Fill out two angles to get the third"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,6 +55,7 @@
         android:layout_height="42dp"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
+        android:textColor="@color/colorPrimaryDark"
         android:text="Angle a "
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,6 +63,7 @@
 
     <TextView
         android:id="@+id/textView6"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="116dp"
         android:layout_height="42dp"
         android:layout_marginStart="30dp"
@@ -71,6 +76,7 @@
 
     <EditText
         android:id="@+id/AngleB"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="0dp"
         android:layout_height="42dp"
         android:layout_marginStart="20dp"
@@ -89,6 +95,8 @@
         android:id="@+id/answer_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:layout_marginStart="80dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="20dp"
@@ -98,6 +106,7 @@
 
     <EditText
         android:id="@+id/AngleC"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_width="0dp"
         android:layout_height="42dp"
         android:layout_marginStart="20dp"
@@ -115,6 +124,8 @@
         android:id="@+id/clearBut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"

@@ -19,6 +19,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark"
             android:text="Choose an Algorithm"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -43,6 +44,8 @@
 
             <Button
                 android:id="@+id/PyTherom"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:text="Pythagorean Theorem"
@@ -50,6 +53,8 @@
 
             <Button
                 android:id="@+id/angles"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:text="Interior Angle"
@@ -57,28 +62,36 @@
 
             <Button
                 android:id="@+id/sin"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:text="Sin Function"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/cos"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
-                android:text="Button"
+                android:text="Cosine Function"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/tan"
                 android:layout_width="match_parent"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_height="75dp"
-                android:text="Button"
+                android:text="Tangent Function"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_height="75dp"
                 android:text="Button"
                 android:textSize="24sp" />
@@ -86,6 +99,8 @@
             <Button
                 android:id="@+id/button16"
                 android:layout_width="match_parent"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_height="75dp"
                 android:text="Button"
                 android:textSize="24sp" />
@@ -93,6 +108,8 @@
             <Button
                 android:id="@+id/button17"
                 android:layout_width="match_parent"
+                android:textColor="@color/textColorPrimary"
+                android:background="@color/colorAccent"
                 android:layout_height="75dp"
                 android:text="Button"
                 android:textSize="24sp" />
