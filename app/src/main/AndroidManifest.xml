@@ -9,19 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TanFunc"
+        <activity android:name=".AraeFunc"></activity>
+        <activity android:name=".Radian" />
+        <activity
+            android:name=".TanFunc"
             android:label="Tangent Function"
             android:parentActivityName=".ChooseActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.easytriangle.ChooseActivity"/>
+                android:value="com.example.easytriangle.ChooseActivity" />
         </activity>
-        <activity android:name=".CosFunc"
+        <activity
+            android:name=".CosFunc"
             android:label="Cosine Function"
             android:parentActivityName=".ChooseActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.easytriangle.ChooseActivity"/>
+                android:value="com.example.easytriangle.ChooseActivity" />
         </activity>
         <activity
             android:name=".PyTherom"
@@ -47,15 +51,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.easytriangle.ChooseActivity" />
         </activity>
-        <activity android:name=".ChooseActivity"
+        <activity
+            android:name=".ChooseActivity"
             android:label="Easy Triangle">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

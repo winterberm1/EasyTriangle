@@ -88,31 +88,23 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/radian"
                 android:layout_width="match_parent"
-                android:textColor="@color/textColorPrimary"
-                android:background="@color/colorAccent"
                 android:layout_height="75dp"
-                android:text="Button"
+                android:background="@color/colorAccent"
+                android:text="Radian Converter"
+                android:textColor="@color/textColorPrimary"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/area"
                 android:layout_width="match_parent"
                 android:textColor="@color/textColorPrimary"
                 android:background="@color/colorAccent"
                 android:layout_height="75dp"
-                android:text="Button"
+                android:text="Right Triangle Area"
                 android:textSize="24sp" />
 
-            <Button
-                android:id="@+id/button17"
-                android:layout_width="match_parent"
-                android:textColor="@color/textColorPrimary"
-                android:background="@color/colorAccent"
-                android:layout_height="75dp"
-                android:text="Button"
-                android:textSize="24sp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

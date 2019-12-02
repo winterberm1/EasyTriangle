@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class ChooseActivity extends AppCompatActivity {
 
-    Button pyBtn, ang, sine, cos, tan;
+    Button pyBtn, ang, sine, cos, tan, radian, area;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,8 @@ public class ChooseActivity extends AppCompatActivity {
         sine = (Button) findViewById(R.id.sin);
         cos = (Button) findViewById(R.id.cos);
         tan = (Button) findViewById(R.id.tan);
+        radian = (Button) findViewById(R.id.radian);
+        area = (Button) findViewById(R.id.area);
 
 
         pyBtn.setOnClickListener(new View.OnClickListener() {
@@ -62,6 +64,22 @@ public class ChooseActivity extends AppCompatActivity {
 
                 Intent myIntent = new Intent(ChooseActivity.this,
                         TanFunc.class);
+                startActivity(myIntent);
+            }
+        });
+        radian.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent myIntent = new Intent(ChooseActivity.this,
+                        Radian.class);
+                startActivity(myIntent);
+            }
+        });
+        area.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent myIntent = new Intent(ChooseActivity.this,
+                        AraeFunc.class);
                 startActivity(myIntent);
             }
         });
