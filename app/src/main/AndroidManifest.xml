@@ -9,8 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AraeFunc"></activity>
-        <activity android:name=".Radian" />
+        <activity android:name=".AraeFunc"
+            android:label="Right Triangle Area">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.easytriangle.ChooseActivity" />
+        </activity>
+        <activity android:name=".Radian"
+            android:label="Unit Converter">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.easytriangle.ChooseActivity" />
+        </activity>
+
         <activity
             android:name=".TanFunc"
             android:label="Tangent Function"
